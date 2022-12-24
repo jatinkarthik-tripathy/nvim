@@ -25,7 +25,8 @@ lsp.configure('pylsp', {
             plugins = {
                 flake8 = {
                     enabled = true,
-                    maxLineLength = 120
+                    maxLineLength = 120,
+                    ignore = {"E402", "E251"}
                 },
                 jedi_completion = {
                     cache_for = {"pandas","numpy","tensorflow","matplotlib", "torch", "transformers"}
