@@ -55,5 +55,11 @@ return require('packer').startup(function(use)
 
   use{'lewis6991/gitsigns.nvim'}
   use{'tpope/vim-fugitive'}
-end)
 
+  use{
+      'francoiscabrol/ranger.vim',
+      requires = {'rbgrouleff/bclose.vim'}
+  }
+  use 'voldikss/vim-floaterm'
+
+end)

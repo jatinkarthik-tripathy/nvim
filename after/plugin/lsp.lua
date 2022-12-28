@@ -17,29 +17,6 @@ lsp.configure('sumneko_lua', {
     }
 })
 
---pylsp.plugins.flake8.maxLineLength 
---pylsp.plugins.jedi_completion.cache_for 
-lsp.configure('pylsp', {
-    settings = {
-        pylsp = {
-            plugins = {
-                flake8 = {
-                    enabled = true,
-                    maxLineLength = 120,
-                    ignore = {"E402", "E251"}
-                },
-                jedi_completion = {
-                    cache_for = {"pandas","numpy","tensorflow","matplotlib", "torch", "transformers"}
-                },
-                pycodestyle = {
-                    enabled = false,
-                    maxLineLength = 120
-                }
-            }
-        }
-    }
-})
-
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}

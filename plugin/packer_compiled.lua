@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/jkt/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["bclose.vim"] = {
+    loaded = true,
+    path = "/home/jkt/.local/share/nvim/site/pack/packer/start/bclose.vim",
+    url = "https://github.com/rbgrouleff/bclose.vim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/jkt/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -139,11 +144,6 @@ _G.packer_plugins = {
     path = "/home/jkt/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["minimap.vim"] = {
-    loaded = true,
-    path = "/home/jkt/.local/share/nvim/site/pack/packer/start/minimap.vim",
-    url = "https://github.com/wfxr/minimap.vim"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/jkt/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -180,6 +180,11 @@ _G.packer_plugins = {
     path = "/home/jkt/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["ranger.vim"] = {
+    loaded = true,
+    path = "/home/jkt/.local/share/nvim/site/pack/packer/start/ranger.vim",
+    url = "https://github.com/francoiscabrol/ranger.vim"
+  },
   ["rose-pine"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
     loaded = true,
@@ -195,6 +200,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jkt/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/jkt/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["vim-fugitive"] = {
     loaded = true,
